@@ -1,0 +1,20 @@
+.raw_html_container {
+    margin-top: 15px;
+    font-family: source sans pro,sans-serif;
+    color: #ffffff;
+    background-color: #0d0d0d;
+}
+
+.raw_html_container h1.cd-headline {
+    font-size: 22px;
+    color: inherit;
+    padding: 4px 8px;
+}
+
+.raw_html_container .cd-headline .cd-words-wrapper {
+    height: 30px;
+}
+
+.raw_html_container h1.cd-headline span:first-child {
+	margin-right: 5px;
+}
