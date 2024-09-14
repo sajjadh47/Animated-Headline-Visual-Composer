@@ -4,8 +4,8 @@
 **Tags:** content, editor, page, pages post, posts, shortcode, shortcodes, builder, wpbakery, visual builder, drag and drop, animation, headline, heading, vc, custom, addon, extension, ext, effect, animated text, super text, best plugin, super effect, animated effect, wordpress, animation effect, style, code, animation code, sajjad \
 **Requires at least:** 5.6 \
 **Requires PHP:** 5.3.0 \
-**Tested up to:** 6.0 \
-**Stable tag:** 1.0.2 \
+**Tested up to:** 6.6 \
+**Stable tag:** 1.0.4 \
 **License:** GPLv2 \
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,9 +86,15 @@ All Available Animation Types :
 
 ## Changelog
 
+### 1.0.4
+
+- Compatibility upto 6.6
+### 1.0.3
+
+- Compatibility upto 6.3
 ### 1.0.2
 
-- Compatibility upto 6.0.
+- Compatibility upto 6.0
 ### 1.0.1
 
 - Added Animation Speed Input Feature...
