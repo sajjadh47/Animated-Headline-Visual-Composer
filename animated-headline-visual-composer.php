@@ -13,7 +13,7 @@
  * Plugin Name:       Animated Headline – Visual Composer (WPBakery Page Builder)
  * Plugin URI:        https://wordpress.org/plugins/animated-headline-visual-composer/
  * Description:       Add a nice animated headline text effect with various animation effects.
- * Version:           2.0.1
+ * Version:           2.0.2
  * Requires at least: 5.6
  * Requires PHP:      8.0
  * Author:            Sajjad Hossain Sagor
@@ -32,7 +32,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Currently plugin version.
  */
-define( 'ANIMATED_HEADLINE_VISUAL_COMPOSER_PLUGIN_VERSION', '2.0.1' );
+define( 'ANIMATED_HEADLINE_VISUAL_COMPOSER_PLUGIN_VERSION', '2.0.2' );
 
 /**
  * Define Plugin Folders Path

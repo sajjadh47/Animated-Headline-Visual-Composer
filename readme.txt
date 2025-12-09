@@ -2,9 +2,9 @@
 Tags: wpbakery, effect, animated text, animated effect, animation effect
 Contributors: sajjad67
 Author: Sajjad Hossain Sagor
-Tested up to: 6.8
+Tested up to: 6.9
 Requires at least: 5.6
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 Requires PHP: 8.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -70,6 +70,8 @@ All Available Animation Types :
 2. screenshot-3
 
 == Changelog ==
+= 2.0.2 =
+- Checked for latest wp version 6.9
 = 2.0.1 =
 - Checked for latest wp version 6.8
 = 2.0.0 =

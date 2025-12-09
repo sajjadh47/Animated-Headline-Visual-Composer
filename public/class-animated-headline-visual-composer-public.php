@@ -65,6 +65,15 @@ class Animated_Headline_Visual_Composer_Public {
 	 */
 	public function enqueue_scripts() {
 		wp_register_script( $this->plugin_name, ANIMATED_HEADLINE_VISUAL_COMPOSER_PLUGIN_URL . 'public/js/public.js', array( 'jquery' ), $this->version, false );
+
+		// Localize the script with animation_speed data.
+		wp_localize_script(
+			$this->plugin_name,
+			'ANIMATED_HEADLINE_VISUAL_COMPOSER',
+			array(
+				'animation_speed' => intval( 2500 ),
+			)
+		);
 	}
 
 	/**
@@ -245,15 +254,6 @@ class Animated_Headline_Visual_Composer_Public {
 						'param_name'  => 'animation_speed',
 						'value'       => '',
 						'description' => __( 'Enter Animation Speed (Default 2500ms). Note : [1000ms = 1 second]. Enter only number without ms text.', 'animated-headline-visual-composer' ),
-					),
-					array(
-						'type'        => 'raw_html',
-						'holder'      => 'div',
-						'class'       => 'animation_preview',
-						'heading'     => __( 'Animation Preview', 'animated-headline-visual-composer' ),
-						'param_name'  => 'animation_preview',
-						'value'       => '',
-						'description' => __( 'Choose Different Animation Type to Preview it here', 'animated-headline-visual-composer' ),
 					),
 					array(
 						'type'        => 'raw_html',
