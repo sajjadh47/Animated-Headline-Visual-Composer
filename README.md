@@ -1,6 +1,6 @@
 # Animated Headline - Visual Composer (WPBakery Page Builder)
 
-[![Plugin Banner](https://ps.w.org/animated-headline-visual-composer/assets/banner-772x250.png)](https://wordpress.org/plugins/animated-headline-visual-composer/)
+[![Plugin Banner](https://ps.w.org/animated-headline-visual-composer/assets/banner-1544x500.png)](https://wordpress.org/plugins/animated-headline-visual-composer/)
 
 **Tested up to:** 6.9 \
 **Requires PHP:** 8.0
